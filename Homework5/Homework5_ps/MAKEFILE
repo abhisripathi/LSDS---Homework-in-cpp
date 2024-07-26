@@ -1,0 +1,4 @@
+all: main.cpp headers.h
+	g++ main.cpp -o main
+clean:
+	rm -f *.o
